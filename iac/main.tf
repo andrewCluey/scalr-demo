@@ -6,3 +6,7 @@ module "vnet" {
  	vnet_address_space = var.address_space
  	vnet_name = "vn-${var.environment}"
 }
+
+variable "environment" {}
+variable "address_space" {}
+variable "resource_group" {}
